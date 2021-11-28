@@ -1,6 +1,6 @@
 # Covid-Detection-using-Yolov5
 
-The Dataset was taken from kaggle.The original dataset was having high deimensional images and due to limited resources avilabel i have taken the cropped images which are of size 256 pixels.
+The Dataset was taken from kaggle.The original dataset was having high dimensional images and due to limited resource avilabilty,I have taken the cropped images which are of size 256 pixels of the original data.
 
 #### Detailed explaination of each and every code is written in the notebook.I have integrated the weights and bias for experiment tracking and analyzing.
 
