@@ -12,4 +12,4 @@ for f in test_list:
     ds = pydicom.read_file( inputdir + f) # read dicom image
     img = ds.pixel_array # get image array
     img_mem = Image.fromarray(img) # Creates an image memory from an object exporting the array interface
-    img_mem.save(outdir + f.replace('.dcm','.jpeg'))
+    img_mem.save(outdir + f.replace('.dcm','.jpg'))
